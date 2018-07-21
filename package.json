@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "jest *.wat *.js --watch"
+  },
+  "dependencies": {
+    "jest": "^23.4.1",
+    "wabt": "^1.0.0"
+  }
+}
