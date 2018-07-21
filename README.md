@@ -14,8 +14,11 @@ To compile fib.ts file, which has the wasm code in ts format, we run this
 
 $ asc fib.ts -o fib.wasm
 
+then we start the web server:
+
 $ http-server
 
+and opening the page indicated by the above command response,
 in console, type fib(5) and we should see the result.
 
 To compare the speed between js and wasm function compilation,
